@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+
+div.header {
+	min-height:150px;
+	max-height: 180px;
+	margin: auto;
+	overflow: hidden;
+	background: url(img/31.jpg) center
+	
+}
+
+h1 {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 30px;
+	font-weight: bold;
+	
+	color: #777;
+	margin: 20px;
+	margin-top: 100px;
+}
+
+div.header h1 {
+	margin-left: 25%;
+	
+}
+
+
+div.header #header_image {
+	margin-left: 20%;
+	float: left;
+	background: url(img/cartoon_clouds.png) no-repeat;
+	min-height: 120px;
+}
+	
