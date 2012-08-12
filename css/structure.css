@@ -31,7 +31,7 @@ body{
 }
 .box.login
 {
-	height:260px;
+	height:265px;
     width:332px;
 	position:absolute;
 	left:50%;
@@ -185,9 +185,3 @@ footer#main_login_page {
 	width:100%;
 }
 
-div.header #header_image {
-	float: left;
-	background: url(img/cartoon_clouds.png) no-repeat;
-	min-height: 120px;
-}
-	
