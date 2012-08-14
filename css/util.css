@@ -6,7 +6,7 @@ div.header {
 	max-height: 180px;
 	margin: auto;
 	overflow: hidden;
-	background: url(img/31.jpg) center
+
 	
 }
 
@@ -29,7 +29,51 @@ div.header h1 {
 div.header #header_image {
 	margin-left: 20%;
 	float: left;
-	background: url(img/cartoon_clouds.png) no-repeat;
 	min-height: 120px;
 }
+
+.viewtable {
+	margin: auto;
+  width: 800px;
+	background: #fff;
+	border: solid medium #CCC;
+  -webkit-border-radius:10px 10px 5px 40px;
+  -moz-border-radius:10px 10px 5px 40px;
+  border-radius:10px 10px 5px 40px;
+  -moz-box-shadow:3px 3px 10px rgba(0, 0, 0, 0.1) inset, 0 0 1px #95a2a7 inset;
+  -webkit-box-shadow:3px 3px 10px rgba(0, 0, 0, 0.1) inset, 0 0 1px #95a2a7 inset;
+  box-shadow:3px 3px 10px rgba(0, 0, 0, 0.1) inset, 0 0 1px #95a2a7 inset;
+	margin-top: 55px;
+	margin-bottom: 85px;
+	padding: 20px;
+	padding-top: px;
+}
+
+.viewtable td {
+	margin: 5px;
+	font-family: inherit;
+  min-width: 250px;
+}
 	
+.viewtable td {
+	display: table-cell;
+	padding: 6px;
+  padding-left: 15px;
+}
+
+.image img {
+	max-height: 400px;
+	max-width: 250px;
+	overflow: hidden;
+	float: right;
+	
+		border: solid medium #CCC;
+		border-top: none;
+		border-right:none;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  border-radius:10px;
+  -moz-box-shadow:3px 3px 10px rgba(0, 0, 0, 0.1) inset, 0 0 1px #95a2a7 inset;
+  -webkit-box-shadow:3px 3px 10px rgba(0, 0, 0, 0.1) inset, 0 0 1px #95a2a7 inset;
+  box-shadow:3px 3px 10px rgba(0, 0, 0, 0.1) inset, 0 0 1px #95a2a7 inset;
+}
